@@ -1,0 +1,18 @@
+SP = float(67.83643)
+RJ = float(36.67866)
+MG = float(29.22988)
+ES = float(27.16548)
+OUT = float(19.84953)
+total = float(SP + RJ + MG + ES + OUT)
+
+pSP = ((SP/total)*100)
+pRJ = ((RJ/total)*100)
+pMG = ((MG/total)*100)
+pES = ((ES/total)*100)
+pOUT = ((OUT/total)*100)
+
+print(f'Porcentagem de SP: {pSP}')
+print(f'Porcentagem de RJ: {pRJ}')
+print(f'Porcentagem de MG: {pMG}')
+print(f'Porcentagem de ES: {pES}')
+print(f'Porcentagem de OUTROS: {pOUT}')
